@@ -528,8 +528,8 @@ R2Sel, X1Load, X2Load, TLoad
 					MemWrite = 0;
 					IRload = 0;
 					R1Sel = 0;
-					MDRload = 1;
-					R1R2Load = 0;
+					MDRload = 0;
+					R1R2Load = 1; 
 					ALU1 = 0;
 					ALU2 = 3'b000;
 					ALUop = 3'b000;
@@ -538,7 +538,7 @@ R2Sel, X1Load, X2Load, TLoad
 					RegIn = 0;
 					FlagWrite = 0;
 					MemIn = 3'b100; 
-					R2Sel = 0; 
+					R2Sel = 1; 
 					VRFWrite = 0;
 					Voutsel = 1;  
 					TLoad = 4'b1000; // save result to T0
@@ -551,7 +551,7 @@ R2Sel, X1Load, X2Load, TLoad
 					MemWrite = 0;
 					IRload = 0;
 					R1Sel = 0;
-					MDRload = 1;
+					MDRload = 0;
 					R1R2Load = 1; // R2 = R2 + 1
 					ALU1 = 0;
 					ALU2 = 3'b000;
@@ -574,7 +574,7 @@ R2Sel, X1Load, X2Load, TLoad
 					MemWrite = 0;
 					IRload = 0;
 					R1Sel = 0;
-					MDRload = 1;
+					MDRload = 0;
 					R1R2Load = 1; // R2 = R2 + 1
 					ALU1 = 0;
 					ALU2 = 3'b000;
@@ -597,7 +597,7 @@ R2Sel, X1Load, X2Load, TLoad
 					MemWrite = 0;
 					IRload = 0;
 					R1Sel = 0;
-					MDRload = 1;
+					MDRload =0;
 					R1R2Load = 1; // R2 = R2 + 1
 					ALU1 = 0;
 					ALU2 = 3'b000;

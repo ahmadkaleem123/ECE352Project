@@ -3,10 +3,6 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate /multicycle_tb/reset
 add wave -noupdate /multicycle_tb/clock
 add wave -noupdate -divider {Hex Display}
-add wave -noupdate -radix hexadecimal /multicycle_tb/DUT/HEX_display/in0
-add wave -noupdate -radix hexadecimal /multicycle_tb/DUT/HEX_display/in1
-add wave -noupdate -radix hexadecimal /multicycle_tb/DUT/HEX_display/in2
-add wave -noupdate -radix hexadecimal /multicycle_tb/DUT/HEX_display/in3
 add wave -noupdate -divider {multicycle.v inputs}
 add wave -noupdate /multicycle_tb/KEY
 add wave -noupdate /multicycle_tb/SW
@@ -46,3 +42,7 @@ add wave -position 6  sim:/multicycle_tb/DUT/RF_block/k2
 add wave -position 7  sim:/multicycle_tb/DUT/RF_block/k3
 add wave -position 8  sim:/multicycle_tb/DUT/Control/instr
 add wave -position 9  sim:/multicycle_tb/DUT/Counter/q
+add wave -position 10  sim:/multicycle_tb/DUT/VRF_block/V0
+add wave -position 11  sim:/multicycle_tb/DUT/VRF_block/V1
+add wave -position 12  sim:/multicycle_tb/DUT/VRF_block/V2
+add wave -position 13  sim:/multicycle_tb/DUT/VRF_block/V3
