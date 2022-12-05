@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at counter_16bit.v(19): always construct contains both blocking and non-blocking assignments File: W:/desl/Project/processor_v3_verilog/counter_16bit.v Line: 19
+Info (10281): Verilog HDL Declaration information at counter_16bit.v(11): object "HEX0" differs only in case from object "hex0" in the same scope File: W:/desl/Project/processor_v3_verilog/counter_16bit.v Line: 11
+Info (10281): Verilog HDL Declaration information at counter_16bit.v(11): object "HEX1" differs only in case from object "hex1" in the same scope File: W:/desl/Project/processor_v3_verilog/counter_16bit.v Line: 11
+Info (10281): Verilog HDL Declaration information at counter_16bit.v(11): object "HEX2" differs only in case from object "hex2" in the same scope File: W:/desl/Project/processor_v3_verilog/counter_16bit.v Line: 11
+Info (10281): Verilog HDL Declaration information at counter_16bit.v(11): object "HEX3" differs only in case from object "hex3" in the same scope File: W:/desl/Project/processor_v3_verilog/counter_16bit.v Line: 11
