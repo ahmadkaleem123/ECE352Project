@@ -253,8 +253,8 @@ mux5to1_8bit 		ALU2_mux(
 );
 
 mux5to1_8bit       mem_mux(
-	.data0x(X1wire[7:0]),.data1x(X1wire[15:8]),.data2x(X1wire[23:16]),
-	.data3x(X1wire[31:24]),.data4x(R1wire),.sel(MemIn),.result(memdatawire)
+	.data0x(X1wire[31:24]),.data1x(X1wire[23:16]),.data2x(X1wire[15:8]),
+	.data3x(X1wire[7:0	]),.data4x(R1wire),.sel(MemIn),.result(memdatawire)
 );
 
 addone	R2_adder(

@@ -46,3 +46,17 @@ add wave -position 10  sim:/multicycle_tb/DUT/VRF_block/V0
 add wave -position 11  sim:/multicycle_tb/DUT/VRF_block/V1
 add wave -position 12  sim:/multicycle_tb/DUT/VRF_block/V2
 add wave -position 13  sim:/multicycle_tb/DUT/VRF_block/V3
+add wave -position insertpoint  \
+sim:/multicycle_tb/DUT/DataMem/wren \
+sim:/multicycle_tb/DUT/DataMem/MemRead \
+sim:/multicycle_tb/DUT/DataMem/data \
+sim:/multicycle_tb/DUT/DataMem/q
+add wave -position insertpoint  \
+sim:/multicycle_tb/DUT/DataMem/address
+add wave -position insertpoint  \
+sim:/multicycle_tb/DUT/DataMem/wren \
+sim:/multicycle_tb/DUT/DataMem/MemRead \
+sim:/multicycle_tb/DUT/DataMem/data \
+sim:/multicycle_tb/DUT/DataMem/q
+add wave -position insertpoint  \
+sim:/multicycle_tb/DUT/Control/TLoad
